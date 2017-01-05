@@ -1,0 +1,27 @@
+
+{
+  "intents": [
+    {
+      "intent": "OneShot",
+      "slots": [
+        {
+          "name": "Service",
+          "type": "LIST_OF_SERVICES"
+        },
+        {
+        	"name": "Query",
+        	"type": "LIST_OF_VIDEOS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

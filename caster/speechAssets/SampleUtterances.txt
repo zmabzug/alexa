@@ -1,0 +1,13 @@
+OneShot open {Service} and play {Query}
+OneShot open {Service} and cast {Query}
+OneShot play {Query} from {Service}
+OneShot cast {Query} from {Service}
+
+AMAZON.StopIntent pause
+AMAZON.StopIntent pause Netflix
+AMAZON.StopIntent pause Hulu
+AMAZON.StopIntent pause HBO Go
+AMAZON.StopIntent stop
+AMAZON.StopIntent stop Netflix
+AMAZON.StopIntent stop Hulu
+AMAZON.StopIntent stop HBO Go
